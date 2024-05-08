@@ -14,11 +14,6 @@ mp_drawing_styles = mp.solutions.drawing_styles
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.3)
 
-############################
-# ans = ""
-# temp = False
-# temp_char = np.zeros(26)
-###########################
 while True:
 
     ret, frame = cap.read()
@@ -26,15 +21,8 @@ while True:
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     results = hands.process(frame_rgb)
 
-    ##################
-    # if cv2.waitKey(25) == ord('Q'):
-    #     break
-    #################
-
     if results.multi_hand_landmarks:
-        #############
-        # temp = True
-        ###########
+     
         for hand_landmarks in results.multi_hand_landmarks:
 
             mp_drawing.draw_landmarks(
@@ -73,16 +61,8 @@ while True:
         cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 0), 4)
         cv2.putText(frame, predicted_character, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 1.3, (0, 0, 0), 3,
                     cv2.LINE_AA)
-        # x = ord(predicted_character) - 65
-        # temp_char[x] += 1
+
         print(predicted_character)
-###########################
-    # else:
-    #     if temp == True:
-    #         x_ = np.argmax(temp_char)
-    #         ans += chr(65 + x_)
-    #         temp_char = np.zeros(26)
-    #         temp = False
 
     cv2.imshow('frame', frame)
     cv2.waitKey(1)
