@@ -2,6 +2,9 @@
 
 This project involves creating a real-time hand gesture recognition system for American Sign Language (ASL) using computer vision and machine learning models. The project uses `MediaPipe` to extract hand landmarks and classifies them using various machine learning models such as Random Forest, K-Nearest Neighbors (KNN), and Multi-Layer Perceptron (MLP). The final model is deployed to predict sign language characters based on real-time camera input.
 
+<img width="176" alt="image" src="https://github.com/user-attachments/assets/7de33401-2e1a-4304-a6a8-17b59c5a99a9">
+
+
 ## Table of Contents
 - [Technologies Used](#technologies-used)
 - [Features](#features)
