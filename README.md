@@ -33,7 +33,7 @@ This project involves creating a real-time hand gesture recognition system for A
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your_username/repo_name.git
+    git clone https://github.com/niteshKotharii/Sign-Language-Detection.git
     ```
 2. Install the necessary dependencies:
     ```bash
