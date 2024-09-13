@@ -39,12 +39,6 @@ This project involves creating a real-time hand gesture recognition system for A
     ```bash
     pip install -r requirements.txt
     ```
-    **Note**: `requirements.txt` should include:
-    - OpenCV
-    - MediaPipe
-    - Scikit-learn
-    - Numpy
-
 3. Download the pre-trained model or train your own (see [Model Training](#model-training)).
 
 ## How to Use
