@@ -4,6 +4,7 @@ This project involves creating a real-time hand gesture recognition system for A
 
 <img width="176" alt="image" src="https://github.com/user-attachments/assets/7de33401-2e1a-4304-a6a8-17b59c5a99a9">
 
+<img width="260" alt="image" src="https://github.com/user-attachments/assets/080d10b9-a10c-4585-983b-7ffa5d9fb9a6">
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
