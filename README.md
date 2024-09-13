@@ -11,7 +11,6 @@ This project involves creating a real-time hand gesture recognition system for A
 - [Model Training](#model-training)
 - [Real-Time Prediction](#real-time-prediction)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies Used
 - Python
